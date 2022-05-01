@@ -7,7 +7,7 @@ namespace CypherBot
 {
     internal static class CypherBot
     {
-        public static TelegramBotClient botClient = new TelegramBotClient("botTelegramToken");
+        public static TelegramBotClient botClient = new TelegramBotClient(Props.botTelegramToken);
 
         private static void Main(string[] args)
         {
