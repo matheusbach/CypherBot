@@ -28,7 +28,7 @@ namespace CypherBot
 
             while (true)
             {
-                Console.ReadKey();
+                Console.Read();
             }
         }
     }
