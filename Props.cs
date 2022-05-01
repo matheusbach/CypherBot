@@ -5,7 +5,7 @@ namespace CypherBot
 {
     internal class Props
     {
-        public static string telegramToken { get; set; }
+        public static string botTelegramToken { get; set; }
         public static Int64 postChannelChatId { get; set; } = -1001399462961;
         public static string PostChannelInviteLink { get; set; } = "https://t.me/CypherpunksBrasil";
         public static Int64 moderatorGroupChatId { get; set; } = -1001153829050;
